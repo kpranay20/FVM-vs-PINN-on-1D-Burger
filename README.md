@@ -34,3 +34,10 @@ for $u = u(x,t)$, $x \in [-6, 6]$ at $t = 5.0s $, with the following initial and
 - Initial Condition: $u(x,0) = e^{-x^2/2}$
 - Dirichlet Boundary Condition: $u(-6,t) = u(6,t) = 0 \forall t \in [0,5s]$ 
 
+---
+
+## Observations:
+
+- The PINN solution closely approximates the FVM solution in **smooth regions** of the domain.
+- Discrepancies between PINN and FVM appear near **steep gradients** or **quasi-shock-like structures**.
+
