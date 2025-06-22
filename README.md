@@ -38,12 +38,12 @@ for $u = u(x,t)$, $x \in [-6, 6]$ at $t = 5.0s $, with the following initial and
 
 ## Observations:
 
-- The PINN solution closely approximates the FVM solution in **smooth regions** of the domain:
+- The PINN solution closely approximates the FVM solution in smooth regions of the domain:
   
   ![image](https://github.com/user-attachments/assets/e78f08e3-9222-4256-84e5-45bdd447f9dd)
   ![image](https://github.com/user-attachments/assets/bc7690bc-7f71-478d-8c95-77ac519427ae)
 
-- Discrepancies between PINN and FVM appear near **steep gradients** or **quasi-shock-like structures**:
+- Discrepancies between PINN and FVM appear near steep gradients or quasi-shock-like structures:
   
   ![image](https://github.com/user-attachments/assets/3b024679-8fc0-4a66-8878-ca6e55aeb7e9)
   ![image](https://github.com/user-attachments/assets/1a93fcb8-9c85-4887-8c99-ccf3c2458a35)
